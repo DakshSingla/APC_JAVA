@@ -114,29 +114,33 @@
 
 // -----------------------------------------
 // import wil automatically add after adding @....
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
 
-@Target(ElementType.TYPE)
-@Retention(RetentionPolicy.RUNTIME)
-@interface abc{
+// import java.lang.annotation.ElementType;
+// import java.lang.annotation.Retention;
+// import java.lang.annotation.RetentionPolicy;
+// import java.lang.annotation.Target;
 
-    int values() default 0;
-    String name() default "chitkara";
-}
-@abc(values=555,name="sham")
-class def{
+// @Target(ElementType.TYPE)
+// @Retention(RetentionPolicy.RUNTIME)
+// @interface abc{
 
-}
-public class test2{
-    public static void main(String[] args) {
-    def dm = new def();
-    Class c = dm.getClass(); // Gets the class object for 'def'
-    System.out.println(c.getName()); // Prints class name
-    abc ab = (abc) c.getAnnotation( abc.class); // Fetch annotation
-    System.out.println(ab.values()); // Prints: 555
-    System.out.println(ab.name()); // Prints: chitkara
-    }
-}
+//     int values() default 0;
+//     String name() default "chitkara";
+// }
+// @abc(values=555,name="sham")
+// class def{
+
+// }
+// public class test2{
+//     public static void main(String[] args) {
+//     def dm = new def();
+//     Class c = dm.getClass(); // Gets the class object for 'def'
+//     System.out.println(c.getName()); // Prints class name
+//     abc ab = (abc) c.getAnnotation( abc.class); // Fetch annotation
+//     System.out.println(ab.values()); // Prints: 555
+//     System.out.println(ab.name()); // Prints: chitkara
+//     }
+// }
+
+// ____________________________________________________________________
+
