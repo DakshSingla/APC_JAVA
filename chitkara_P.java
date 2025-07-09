@@ -5,4 +5,5 @@ public class chitkara_P {
         System.out.println(obj.max(100,7));
         obj.table(5);
     }
+   
 }
