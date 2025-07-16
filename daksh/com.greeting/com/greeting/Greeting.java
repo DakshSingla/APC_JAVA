@@ -1,8 +1,11 @@
-package com.greeting;
+package com.greeting; 
 
-public class Greeting {
-    
-    public void sayHello() {
-        System.out.println("Hello from Greeting module!");
-    }
-}
+public class Greeting { 
+
+    public static void sayHello() { 
+
+        System.out.println("Hello from Greeting Module!"); 
+
+    } 
+
+} 
