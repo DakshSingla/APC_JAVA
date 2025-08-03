@@ -10,4 +10,4 @@ public class MyThread extends Thread{
 //.......-
 //krwogjew
 
-//piogkghrgdd
+//piogkghr
